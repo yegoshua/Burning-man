@@ -1,0 +1,156 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.header {
+    background: url("../img/header-bg.jpg") no-repeat center top/cover;
+    font-family: Anton;
+    font-style: normal;
+    font-weight: normal;
+    padding-top: 57px;
+    padding-bottom: 322px;
+    color: #fff;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    color: #fff;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.menu-item:hover{
+    border-bottom: 1px solid #fff;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.phone-block {
+    font-size: 17px;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+
+.logo-img {
+    margin-right: 70px;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+.header-offer {
+    margin-top: 216px;
+    letter-spacing: 0.2em;
+}
+.header-title {
+    font-size: 100px;
+    margin: 0;
+    line-height: 146px;
+}
+
+.devis {
+    font-size: 30px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.about {
+    padding-top: 113px;
+}
+
+.button {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    padding: 17px 23px;
+    border: 1px solid #fff;
+    width: 238px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    transition: 0.7s;
+}
+
+.button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.section-title {
+    font-size: 50px;
+    line-height: 73px;
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    margin: 0;
+    margin-bottom: 58px;
+}
+
+.desc-left h3,
+.desc-right h3 {
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 37px;
+    letter-spacing: 0.01em;
+}
+
+.description p {
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.67em;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc-left,
+.desc-right {
+    width: 564px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 67px;
+}
+
+.gallery-image{
+    transition: 0.5s;
+}
+
+.gallery-image:hover{
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 114px;
+    margin-bottom: 80px;
+}
